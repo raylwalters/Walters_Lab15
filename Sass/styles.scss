@@ -1,0 +1,31 @@
+@mixin align{
+	width:50%;
+	margin-right:auto;
+	margin-left:auto;
+	margin-top:1%;
+	display:block;
+	font-size: 1.5em;
+}
+input{
+	@include align;
+}
+li{
+	list-style-type:none;
+	display:inline;
+}
+span{
+	text-decoration:underline;
+	font-weight:bold;
+}
+section{
+	@include align;
+}
+button{
+	@include align;
+}
+p{
+	@include align;
+}
+h1{
+	@include align;
+}

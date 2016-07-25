@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Mad Libs</title>
+	<link href="css/styles.css" rel=stylesheet type="text/css">
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-route.min.js"></script>
 	<script src="script.js"></script>
@@ -11,9 +12,12 @@
 	<script src="services.js"></script>
 </head>
 <body ng-app="routingModule">
-<h1>Mad Libs</h1>
-<li><a href="#/form">Form</a></li>
-<li><a href="#/display">Display</a></li>
+<section>
+	<h1>Mad Libs</h1>
+	<li><a href="#/form">Form</a></li>
+	<li><a href="#/display">Display</a></li>
+	<h3>Enter Baseball Terms Here:</h3>
+</section>
 <div ng-view></div>
 
 	
